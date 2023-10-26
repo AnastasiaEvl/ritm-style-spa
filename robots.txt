@@ -6,6 +6,7 @@ Allow: *.css
 Allow: /src/pages/cloudTherapy.html
 Allow: /src/handsFeatHair.html
 Allow: /src/authorialRituals.html
+Allow: /src/thankPage.html
 Allow:/src/icons
 Sitemap:https://anastasiaevl.github.io/ritm-style-spa/
 
