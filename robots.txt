@@ -1,0 +1,24 @@
+User-agent:*
+Allow:/
+Allow:/src/icons
+Allow: *.js
+Allow: *.css
+Allow: /src/pages/cloudTherapy.html
+Allow: /src/handsFeatHair.html
+Allow: /src/news.html
+Allow:/src/icons
+Sitemap:http://localhost:63342/aqua/index.html
+
+Disallow:/src/assets/video
+Disallow:/src/assets/pictures
+Disallow:/src/pages/PrivacyPolicy.html
+Disallow:/src/pages/cookies.html
+
+Clean-param: utm
+Crawl-delay:0.5
+
+
+
+
+
+

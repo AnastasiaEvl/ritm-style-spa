@@ -1,0 +1,44 @@
+.button {
+    margin-top: 2rem;
+    width: 16.9rem;
+    height: 3.6rem;
+    background-color: var(--pink);
+    text-align: center;
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: var(--unit-s);
+    line-height: 1.6;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #1a4180;
+    transition: 0.5s;
+}
+.button--white{
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid var(--white);
+    width: 23rem;
+}
+.button--white:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    border: 2px solid var(--pink);
+    color: var(--pink);
+}
+.form__button{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--font-family-subtitle-btn);
+    font-size: var(--unit-xs);
+    padding: 1.2rem;
+    border-radius: 0 0 10px 10px;
+    border: none;
+}

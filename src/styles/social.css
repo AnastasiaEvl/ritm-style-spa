@@ -1,0 +1,23 @@
+.social{
+    padding: 1rem 0.9rem 1.1rem;
+    background-color: #F8EFEF;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 2rem;
+}
+.social__content-title{
+    padding-bottom: 2rem;
+}
+.social__content p {
+    color: var(--middle-grey);
+ }
+
+@media (max-width: 750px) {
+    .social {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+

@@ -1,0 +1,81 @@
+.banner{
+    background-image: url("../assets/pictures/bg.png");
+    min-height: 951px;
+    position: relative;
+    background-color: dimgrey;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    gap:0.5rem;
+
+}
+.section-header--banner{
+    width: 42rem;
+    background-color: transparent;
+    color: var(--black);
+    display: inline;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+.section-header__line-banner{
+background-color: white;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+.header__logo--huge{
+    min-width: 270px;
+    position: relative;
+    z-index: 1;
+}
+.banner__form{
+    width: 29rem;
+    font-family: var(--font-family-subtitle-btn);
+}
+.tacbox {
+    display:block;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+}
+
+input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+}
+@media (max-width: 750px) {
+    .header__logo--huge{
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .section-header--banner{
+        width: 100vw;
+        text-align: center;
+    }
+    .banner__form{
+        width: 100%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1024px) {
+    .banner{
+       min-height: 693px;
+    }
+}
+

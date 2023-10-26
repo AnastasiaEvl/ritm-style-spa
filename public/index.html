@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:url" content="https://anastasiaevl.github.io/ritm-style-spa/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="RitmStyle SPA" />
+    <meta property="og:description" content="SPA AND RELAX" />
+    <meta property="og:image" content="https://i.postimg.cc/HxX6jNmV/water-2-1.png" />
+    <meta property="vk:image" content="https://i.postimg.cc/HxX6jNmV/water-2-1.png"/>
+    <meta name="twitter:image" content="https://i.postimg.cc/HxX6jNmV/water-2-1.png"/>
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+          rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway&display=swap"
+          rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="../src/styles/reset.css"/>
+    <link rel="stylesheet" href="../src/styles/shared/form.css"/>
+    <link rel="stylesheet" href="../src/styles/shared/button.css"/>
+    <link rel="stylesheet" href="../src/styles/shared/messenger-icons.css"/>
+    <link rel="stylesheet" href="../src/styles/container.css"/>
+    <link rel="stylesheet" href="../src/styles/warning.css"/>
+    <link rel="stylesheet" href="../src/styles/shared/modal.css"/>
+    <link rel="stylesheet" href="../src/styles/header.css"/>
+    <link rel="stylesheet" href="../src/styles/banner.css"/>
+    <link rel="stylesheet" href="../src/styles/social.css"/>
+    <link rel="stylesheet" href="../src/styles/shared/section-header.css"/>
+    <link rel="stylesheet" href="../src/styles/awesome.css"/>
+    <link rel="stylesheet" href="../src/styles/pricing.css"/>
+    <link rel="stylesheet" href="../src/styles/reviews.css"/>
+    <link rel="stylesheet" href="../src/styles/design.css"/>
+    <link rel="stylesheet" href="../src/styles/contact.css"/>
+    <link rel="stylesheet" href="../src/styles/footer.css"/>
+    <script defer src="../src/script/script.js"></script>
+    <script defer src="../src/script/cookie.js"></script>
+    <title>RitmStyle</title>
+</head>
+<body>
+<div class="wrapper">
+    <main>
+        <header class="header">
+            <a href="./index.html" class="header__logo-link"
+            ><img class="header__logo" src="../src/icons/logo.svg" alt="aqua-icon"
+            /></a>
+            <input aria-label="button of burger menu" id="header__menu" type="checkbox"/>
+            <label aria-label="burger menu label" class="header__menu" for="header__menu">
+                <span class="menu__line"></span>
+            </label>
+            <nav class="header-nav">
+                <ul class="header-nav__menu">
+                    <div class="dropdown">
+                        <button class="dropbtn"> special</button>
+                        <div class="dropdown-content">
+                            <a href="../src/pages/authorialRituals.html">Authorial rituals</a>
+                            <a href="../src/pages/healthPromotion.html">Health promotion and body pampering</a>
+                            <a href="../src/pages/handsFeatHair.html">Hands, feet and hair pampering treatments</a>
+                            <a href="../src/pages/cloudTherapy.html">Cloud therapy</a>
+                        </div>
+                    </div>
+                    <li><a href="#awesome" class="header-nav__section">about</a></li>
+                    <li>
+                        <a href="#pricing" class="header-nav__section">pricing</a>
+                    </li>
+                    <li>
+                        <a href="#reviews" class="header-nav__section">reviews</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="header-nav__section">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <div class="section-header section-header--banner">
+                <img
+                        class="header__logo header__logo--huge"
+                        src="../src/icons/logo.svg"
+                        alt="axit"
+                />
+                <h1 class="section-header__title section-header__title--white">
+                    aquatherapy <br>RitmStyle
+                </h1>
+                <div class="section-header__line section-header__line--white"></div>
+                <p
+                        class="section-header__description section-header__description--white"
+                >
+                    Promotion of health
+                </p>
+                <button type="button" class="button button--white" onclick="location.href='../src/pages/authorialRituals.html';">our
+                    programs
+                </button>
+            </div>
+            <div class="banner__form">
+                <form class="form" action="../src/pages/thankPage.html" method="post" id="banner-form">
+                    <fieldset class="form__section">
+                        <legend class="form__title">
+                            <h4>
+                                Book Your
+                                <span class="form__title form__title--color">first</span>
+                                Seance Now
+                            </h4>
+                        </legend>
+                        <label for="user-name" class="form__label">name</label>
+                        <input
+                                id="user-name"
+                                class="form__input"
+                                type="text"
+                                name="name"
+                                placeholder="name"
+                                autocomplete="username"
+                                autofocus
+                                required
+                        />
+                        <label for="user-email" class="form__label">email</label>
+                        <input
+                                id="user-email"
+                                class="form__input"
+                                type="email"
+                                name="email"
+                                placeholder="email"
+                                autocomplete="email"
+                                required
+                        />
+                        <label for="user-password" class="form__label">password</label>
+                        <input
+                                id="user-password"
+                                class="form__input"
+                                type="password"
+                                name="password"
+                                placeholder="password"
+                                autocomplete="current-password"
+                                required
+                        />
+                        <div class="tacbox">
+                            <label for="check"></label><input id="check" type="checkbox" required/>
+                            <label for="checkbox"> I accept <a href="../src/pages/privacyPolicy.html">Privacy policy</a>.</label>
+                        </div>
+                    </fieldset>
+                    <button
+                            type="submit"
+                            class="button form__button"
+                            form="banner-form"
+                    >
+                        Get Started
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="social">
+            <h2 class="section__title">Social Media Section with links</h2>
+            <div class="social__content">
+                <h3 class="social__content-title">Social Media</h3>
+                <p>Contact with us</p>
+                <p>for detailed information</p>
+            </div>
+            <div class="messenger-icons">
+                <a class="messenger-icons__link" href="https://www.facebook.com/"
+                ><img
+                        class="messenger-icons__img messenger-icons__img--social"
+                        src="../src/icons/facebook.svg"
+                        alt="facebook"
+                /></a>
+                <a class="messenger-icons__link" href="https://www.linkedin.com/"
+                ><img
+                        class="messenger-icons__img messenger-icons__img--social"
+                        src="../src/icons/linkedin.svg"
+                        alt="linkedIn"
+                /></a>
+                <a class="messenger-icons__link" href="https://twitter.com/"
+                ><img
+                        class="messenger-icons__img messenger-icons__img--social"
+                        src="../src/icons/twitter.svg"
+                        alt="twitter"
+                /></a>
+                <a class="messenger-icons__link" href="https://www.pinterest.com/"
+                ><img
+                        class="messenger-icons__img messenger-icons__img--social"
+                        src="../src/icons/pinterest.svg"
+                        alt="pinterest"
+                /></a>
+                <a class="messenger-icons__link" href="https://www.instagram.com/"
+                ><img
+                        class="messenger-icons__img messenger-icons__img--social"
+                        src="../src/icons/instagram.svg"
+                        alt="instagram"
+                /></a>
+            </div>
+        </section>
+        <section id="awesome">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">why it has a good effect</h2>
+                    <div class="section-header__line"></div>
+                    <p class="section-header__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="awesome__content-box">
+                    <div class="awesome__card">
+                        <img
+                                class="awesome__card-icon"
+                                src="../src/icons/lamp.svg"
+                                alt="lamp icon"
+                        />
+                        <h3 class="awesome__card-title"> No more problems</h3>
+                        <p class="awesome__card-description">
+                            The procedure helps with chronic fatigue, both mentally and physically.
+                            The body stops hurting, you feel light and carefree.
+                        </p>
+                    </div>
+                    <div class="awesome__card">
+                        <img
+                                class="awesome__card-icon"
+                                src="../src/icons/keyboard.svg"
+                                alt="keyboard icon"
+                        />
+                        <h3 class="awesome__card-title">Great rest for an hour</h3>
+                        <p class="awesome__card-description">
+                            Relax of muscles and joints.
+                            Many people note that no more painful sensations arise and the back stops crunching
+                        </p>
+                    </div>
+                    <div class="awesome__card">
+                        <img
+                                class="awesome__card-icon"
+                                src="../src/icons/flash.svg"
+                                alt="flash icon"
+                        />
+                        <h3 class="awesome__card-title">Stop afraid of water</h3>
+                        <p class="awesome__card-description">
+                            Help you to want start swim learning.
+                            You realize that it's easy to feel water and feel it
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Our programs</h2>
+                    <div class="section-header__line"></div>
+                    <p class="section-header__description">
+                        Chose what you like
+                    </p>
+                </div>
+                <div class="pricing__content">
+                    <div class="pricing__card">
+                        <ul class="pricing__card-header">
+                            <li class="pricing__card-title"><h4>RitmStyle massage</h4></li>
+                            <li class="pricing__card-price"><h3>$10</h3></li>
+                        </ul>
+                        <ul class="pricing__card-content">
+                            <li class="pricing__card-content-subtitle">Includes</li>
+                            <li class="pricing__card-item">Head massage</li>
+                            <li class="pricing__card-item">Foot massage</li>
+                            <li class="pricing__card-item">Stomach massage</li>
+                            <li class="pricing__card-item">Arms massage</li>
+                            <li class="pricing__card-item">Back massage</li>
+                            <li class="pricing__card-item">Diaphragm massage</li>
+                        </ul>
+                    </div>
+                    <div class="pricing__card">
+                        <ul class="pricing__card-header">
+                            <li class="pricing__card-title"><h4>RitmStyle hydrotherapy</h4></li>
+                            <li class="pricing__card-price"><h3>$20</h3></li>
+                        </ul>
+                        <ul class="pricing__card-content">
+                            <li class="pricing__card-content-subtitle">Includes</li>
+                            <li class="pricing__card-item">Soaking in hot or cold water</li>
+                            <li class="pricing__card-item">Pressurized jets</li>
+                            <li class="pricing__card-item">Temperature regulation</li>
+                            <li class="pricing__card-item">Aquatic exercise</li>
+                            <li class="pricing__card-item">Wet or dry saunas</li>
+                            <li class="pricing__card-item">Aquatic exercise</li>
+                        </ul>
+                    </div>
+                    <div class="pricing__card">
+                        <ul class="pricing__card-header">
+                            <li class="pricing__card-title"><h4>RotmStyle for couples</h4></li>
+                            <li class="pricing__card-price"><h3>$30</h3></li>
+                        </ul>
+                        <ul class="pricing__card-content">
+                            <li class="pricing__card-content-subtitle">Includes</li>
+                            <li class="pricing__card-item">Floating</li>
+                            <li class="pricing__card-item">Sauna</li>
+                            <li class="pricing__card-item">Tea</li>
+                            <li class="pricing__card-item">Massage of back</li>
+                            <li class="pricing__card-item">Romantic atmosphere</li>
+                            <li class="pricing__card-item">Music and sweets</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title">
+                        what our clients are saying
+                    </h2>
+                    <div class="section-header__line"></div>
+                    <p class="section-header__description">
+                        Try and you
+                    </p>
+                </div>
+                <div class="reviews__content">
+                    <div class="reviews__slider">
+                        <input
+                                type="radio"
+                                name="slider"
+                                title="slide1"
+                                checked="checked"
+                                class="slider__nav"
+                        />
+                        <input
+                                type="radio"
+                                name="slider"
+                                title="slide2"
+                                class="slider__nav"
+                        />
+                        <input
+                                type="radio"
+                                name="slider"
+                                title="slide3"
+                                class="slider__nav"
+                        />
+                        <div class="reviews__slider-inner">
+                            <article class="reviews__card">
+                                <h3 class="section__title">Text of user review</h3>
+                                <div class="reviews__card-text">
+                                    <p>
+                                        I come back here every year: big SPA with lots of services to relax (masters who
+                                        have won awards work here).
+                                    </p>
+                                </div>
+                                <section class="client__profile">
+                                    <img
+                                            class="client__avatar"
+                                            src="../src/icons/avatar_first_rev.png"
+                                            alt="client avatar"
+                                    />
+                                    <div class="client__profile-info">
+                                        <h4 class="client__profile-name">Davis Rhiel Madsen</h4>
+                                        <p class="client__profile-position">Vilnus</p>
+                                    </div>
+                                </section>
+                            </article>
+                            <article class="reviews__card">
+                                <h3 class="section__title">Text of user review</h3>
+                                <div class="reviews__card-text">
+                                    <p>
+                                        Absolutely the best modern SPA in town, fantastic service,a lot of medical
+                                        procedures. Very recommended!
+                                    </p>
+                                </div>
+                                <section class="client__profile">
+                                    <img
+                                            class="client__avatar"
+                                            src="../src/icons/avatar_second_rev.png"
+                                            alt="client avatar"
+                                    />
+                                    <div class="client__profile-info">
+                                        <h4 class="client__profile-name">Jaydon Rosser</h4>
+                                        <p class="client__profile-position">Warsaw</p>
+                                    </div>
+                                </section>
+                            </article>
+                            <article class="reviews__card">
+                                <h3 class="section__title">Text of user review</h3>
+                                <div class="reviews__card-text">
+                                    <p>
+                                        Choice of massage and beauty procedures are huge. Whatever you choose, it is
+                                        extremely pleasant, professional and relaxing.
+                                    </p>
+                                </div>
+                                <section class="client__profile">
+                                    <img
+                                            class="client__avatar"
+                                            src="../src/icons/avatar_third_rev.png"
+                                            alt="client avatar"
+                                    />
+                                    <div class="client__profile-info">
+                                        <h4 class="client__profile-name">Cooper Dorwart</h4>
+                                        <p class="client__profile-position">Minsk</p>
+                                    </div>
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="design">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-header__title section-header__title--white">
+                        BYU GIFT CARD
+                    </h2>
+                    <div
+                            class="section-header__line section-header__line--white"
+                    ></div>
+                    <p
+                            class="section-header__description section-header__description--white"
+                    >
+                        The best gift for a birthday is a birthday Gift Card.
+                        A Gift Card enables the person to buy procedure whatever they like
+                    </p>
+                    <button type="button" class="button button--white" id="open">
+                        Buy
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class=" container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Let's start</h2>
+                    <div class="section-header__line"></div>
+                    <p class="section-header__description">
+                        Fill following form
+                    </p>
+                </div>
+                <div class="contact__inf">
+                    <div class="contact__inf-icon-block">
+                        <img src="../src/icons/phone.png" alt="phone" class="contact__inf-icon">
+                        <a href="tel:+74952680449">
+                            +7 (495) 268-04-49</a>
+                    </div>
+                    <div class="contact__inf-icon-block">
+
+                        <img src="../src/icons/mail.png" alt="phone" class="contact__inf-icon">
+                        <a href="mailto: support@ritmstyle.com ">
+                            support@ritmstyle.com </a>
+                    </div>
+                    <div class="contact__inf-icon-block">
+                        <img src="../src/icons/location.png" alt="location" class="contact__inf-icon">
+                        <p>
+                            Minsko pl. 2, 02121 Vilnius </p>
+                    </div>
+                </div>
+                <div class="contact__form-box">
+                    <form
+                            class="form form-contact"
+                            action="../src/pages/thankPage.html"
+                            method="post"
+                            name="contact-form"
+                            id="contact-form"
+                    >
+                        <fieldset class="form__section section-contact">
+                            <legend class="form__title">
+                                <h2 class="user-data-form__name">Contact form</h2>
+                            </legend>
+                                <label for="contact-name" class="form__label">name</label>
+                                <input
+                                        id="contact-name"
+                                        class="form__input"
+                                        type="text"
+                                        name="contact-name"
+                                        placeholder="name"
+                                        autocomplete="username"
+                                        autofocus
+                                        required
+                                />
+                                <label for="contact-email" class="form__label">email</label>
+                                <input
+                                        id="contact-email"
+                                        class="form__input"
+                                        type="email"
+                                        name="contact-email"
+                                        placeholder="email"
+                                        autocomplete="email"
+                                        required
+                                />
+                                <label for="contact-password" class="form__label"
+                                >password</label
+                                >
+                                <input
+                                        id="contact-password"
+                                        class="form__input"
+                                        type="password"
+                                        name="contact-password"
+                                        placeholder="password"
+                                        autocomplete="current-password"
+                                        required
+                                />
+                                <label for="message" class="form__label">message</label>
+                                <textarea
+                                        class="form__input input-message"
+                                        id="message"
+                                        name="message"
+                                        rows="8"
+                                        cols="50"
+                                        placeholder="message"
+                                > </textarea>
+                                <div class="tacbox">
+                                    <input id="checkbox" type="checkbox" required/>
+                                    <label for="checkbox"> I accept <a href="../src/pages/privacyPolicy.html">Privacy
+                                        policy</a>.</label>
+                                </div>
+                        </fieldset>
+                        <button type="submit" class="button" form="contact-form">
+                            Send Message
+                        </button>
+                    </form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73901.5521392811!2d25.167819132064658!3d54.63176034873095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd94533351aebb%3A0xcfe1fa9a03acf435!2z0JvQtdC_0LrQsNC70YzQvdC40YE!5e0!3m2!1sru!2slt!4v1698319740595!5m2!1sru!2slt"
+                            allowfullscreen="" loading="lazy" class="map"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <address class="messenger-icons">
+                <a class="messenger-icons__link" href="https://www.facebook.com/"
+                ><img
+                        class="messenger-icons__img"
+                        src="../src/icons/facebook.svg"
+                        alt="facebook"
+                /></a>
+                <a class="messenger-icons__link" href="https://twitter.com/"
+                ><img
+                        class="messenger-icons__img"
+                        src="../src/icons/twitter.svg"
+                        alt="twitter"
+                /></a>
+                <a class="messenger-icons__link" href="https://www.pinterest.com/"
+                ><img
+                        class="messenger-icons__img"
+                        src="../src/icons/pinterest.svg"
+                        alt="pinterest"
+                /></a>
+                <a class="messenger-icons__link" href="https://www.instagram.com/"
+                ><img
+                        class="messenger-icons__img"
+                        src="../src/icons/instagram.svg"
+                        alt="instagram"
+                /></a>
+            </address>
+            <p>© 2023 Aqua</p>
+        </footer>
+    </main>
+</div>
+<dialog>
+    <button id="close" class="button">X</button>
+</dialog>
+<div class="warning warning--active">
+    <div class="warning__text">By clicking “Accept All Cookies”, you consent to the use of cookies and tracking
+        technologies to create content that’s relevant to you, enhance site navigation and allow us to personalise our
+        offers to you. To find out more, see our <a href="../src/pages/privacyPolicy.html">
+            <span class="warning__link">Privacy Policy</span></a>
+        and <a href="../src/pages/cookies.html"><span class="warning__link">Cookies Policy</span></a></div>
+    <button class="warning__apply" type="button">Accept</button>
+</div>
+
+</body>
+</html>

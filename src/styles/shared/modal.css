@@ -1,0 +1,13 @@
+    dialog {
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        height: fit-content;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: lightblue;
+        border: none;
+        border-radius: 1rem;
+    }

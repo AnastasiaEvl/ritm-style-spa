@@ -1,0 +1,43 @@
+.section-header{
+    padding: 5rem 0;
+    position: relative;
+    z-index: 2;
+}
+.section-header__title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.section-header__line {
+    background-color: var(--pink);
+    display: inline-block;
+    height: 1px;
+    width: 170px;
+}
+.section-header__description {
+    font-size: 1rem;
+    color: var(--middle-grey);
+    padding: 2rem 2rem 1rem 2rem;
+}
+.video__cloud{
+    width: 290px;
+}
+.banner__form-name{
+    display: none;
+}
+.section-header__title--white, .section-header__description--white{
+    color: white;
+}
+.section-header__line--white{
+    background-color:white;
+}
+@media (min-width: 750px) {
+    .section-header {
+        text-align: center;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .video__cloud{
+        width: 500px;
+    }
+}

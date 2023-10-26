@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    gap: 1.25rem;
+    color: var(--white);
+}
+
+.footer__content-rights {
+    color: rgba(255, 255, 255, 0.5);
+}

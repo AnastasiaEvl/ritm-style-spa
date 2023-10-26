@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+          rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway&display=swap"
+          rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="./../styles/carousel.css">
+    <link rel="stylesheet" href="../styles/reset.css"/>
+    <link rel="stylesheet" href="../styles/shared/form.css"/>
+    <link rel="stylesheet" href="../styles/shared/button.css"/>
+    <link rel="stylesheet" href="../styles/shared/messenger-icons.css"/>
+    <link rel="stylesheet" href="../styles/container.css"/>
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/banner.css"/>
+    <link rel="stylesheet" href="../styles/social.css"/>
+    <link rel="stylesheet" href="../styles/shared/section-header.css"/>
+    <link rel="stylesheet" href="../styles/contact.css"/>
+    <link rel="stylesheet" href="../styles/footer.css"/>
+    <link rel="stylesheet" href="../styles/handsBlock.css">
+    <title>Health Promotion</title>
+</head>
+<body>
+<div class="wrapper__service">
+    <header class="header">
+        <a href="../../public/index.html" class="header__logo-link"
+        ><img class="header__logo" src="../icons/logo.svg" alt="logo"
+        /></a>
+    </header>
+    <div class="carousel">
+    <div class="section-header__service-carousel">
+        <h2 class="section-header__title">Health promotion and body pampering</h2>
+        <div class="section-header__line"></div>
+        <p class="section-header__description">
+            We use natural body scrubs with coconut, almond, cinnamon, ginger, lemongrass,
+            rice or green tea- it's a perfect mean for removing the upper layer of your dead skin,
+            cleansing pores, refreshing the skin and preparing it to other treatments, like body massage
+            or body mask - wrap.
+        </p>
+    </div>
+    <figure class="icon-cards mt-3">
+        <div class="icon-cards__content">
+            <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+            <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+            <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+        </div>
+    </figure>
+
+</div>
+    <section id="contact">
+        <div class=" container">
+            <div class="section-header">
+                <h2 class="section-header__title">Let's start</h2>
+                <div class="section-header__line"></div>
+                <p class="section-header__description">
+                    Fill following form
+                </p>
+            </div>
+            <div class="contact__inf">
+                <div class="contact__inf-icon-block">
+                    <img src="../icons/phone.png" alt="phone" class="contact__inf-icon">
+                    <a href="tel:+74952680449">
+                        +7 (495) 268-04-49</a>
+                </div>
+                <div class="contact__inf-icon-block">
+
+                    <img src="../icons/mail.png" alt="phone" class="contact__inf-icon">
+                    <a href="mailto: support@ritmstyle.com ">
+                        support@ritmstyle.com </a>
+                </div>
+                <div class="contact__inf-icon-block">
+                    <img src="../icons/location.png" alt="location" class="contact__inf-icon">
+                    <p>
+                        Minsko pl. 2, 02121 Vilnius </p>
+                </div>
+            </div>
+            <div class="contact__form-box">
+                <form
+                        class="form form-contact"
+                        action="../pages/thankPage.html"
+                        method="post"
+                        name="contact-form"
+                        id="contact-form"
+                >
+                    <fieldset class="form__section section-contact">
+                        <legend class="form__title">
+                            <h2 class="user-data-form__name">Contact form</h2>
+                        </legend>
+                        <label for="contact-name" class="form__label">name</label>
+                        <input
+                                id="contact-name"
+                                class="form__input"
+                                type="text"
+                                name="contact-name"
+                                placeholder="name"
+                                autocomplete="username"
+                                autofocus
+                                required
+                        />
+                        <label for="contact-email" class="form__label">email</label>
+                        <input
+                                id="contact-email"
+                                class="form__input"
+                                type="email"
+                                name="contact-email"
+                                placeholder="email"
+                                autocomplete="email"
+                                required
+                        />
+                        <label for="contact-password" class="form__label"
+                        >password</label
+                        >
+                        <input
+                                id="contact-password"
+                                class="form__input"
+                                type="password"
+                                name="contact-password"
+                                placeholder="password"
+                                autocomplete="current-password"
+                                required
+                        />
+                        <label for="message" class="form__label">message</label>
+                        <textarea
+                                class="form__input input-message"
+                                id="message"
+                                name="message"
+                                rows="8"
+                                cols="50"
+                                placeholder="message"
+                        > </textarea>
+                        <div class="tacbox">
+                            <input id="checkbox" type="checkbox" required/>
+                            <label for="checkbox"> I accept <a href="../pages/privacyPolicy.html">Privacy
+                                policy</a>.</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="button" form="contact-form">
+                        Send Message
+                    </button>
+                </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73901.5521392811!2d25.167819132064658!3d54.63176034873095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd94533351aebb%3A0xcfe1fa9a03acf435!2z0JvQtdC_0LrQsNC70YzQvdC40YE!5e0!3m2!1sru!2slt!4v1698319740595!5m2!1sru!2slt"
+                        allowfullscreen="" loading="lazy" class="map"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <address class="messenger-icons">
+            <a class="messenger-icons__link" href="https://www.facebook.com/"
+            ><img
+                    class="messenger-icons__img"
+                    src="../icons/facebook.svg"
+                    alt="facebook"
+            /></a>
+            <a class="messenger-icons__link"  href="https://twitter.com/"
+            ><img
+                    class="messenger-icons__img"
+                    src="../icons/twitter.svg"
+                    alt="twitter"
+            /></a>
+            <a class="messenger-icons__link" href="https://www.pinterest.com/"
+            ><img
+                    class="messenger-icons__img"
+                    src="./../icons/pinterest.svg"
+                    alt="pinterest"
+            /></a>
+            <a class="messenger-icons__link" href="https://www.instagram.com/"
+            ><img
+                    class="messenger-icons__img"
+                    src="../icons/instagram.svg"
+                    alt="instagram"
+            /></a>
+        </address>
+        <p>© 2023 Aqua</p>
+    </footer>
+
+</div>
+
+</body>
+</html>

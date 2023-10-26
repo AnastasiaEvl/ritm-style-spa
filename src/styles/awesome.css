@@ -1,0 +1,39 @@
+#awesome{
+    padding-bottom: 3.2rem;
+    scroll-margin-top: 0.9rem;
+}
+.awesome__content-box {
+    font-size: 0;
+}
+.awesome__card {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    padding: 0.9rem 1.25rem;
+    line-height: 1.5;
+}
+.awesome__card-title {
+    margin-bottom: 1.5rem;
+}
+.awesome__card-description {
+    line-height: 1.3;
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    #awesome{
+        scroll-margin-top: 5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .awesome__content-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .awesome__card {
+        width: 100%;
+    }
+}
+
+
