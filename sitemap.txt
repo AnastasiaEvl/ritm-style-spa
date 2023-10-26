@@ -1,5 +1,5 @@
-http://localhost:63342/aqua/index.html
-http://localhost:63342/aqua/src/pages/news.html
-http://localhost:63342/aqua/src/pages/healthPromotion.html
-http://localhost:63342/aqua/src/pages/handsFeatHair.html
-http://localhost:63342/aqua/src/pages/cloudTherapy.html
+https://anastasiaevl.github.io/ritm-style-spa/
+https://anastasiaevl.github.io/ritm-style-spa/authorialRituals.html
+https://anastasiaevl.github.io/ritm-style-spa/healthPromotion.html
+https://anastasiaevl.github.io/ritm-style-spa/handsFeatHair.html
+https://anastasiaevl.github.io/ritm-style-spa/cloudTherapy.html

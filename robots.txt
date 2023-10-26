@@ -5,13 +5,13 @@ Allow: *.js
 Allow: *.css
 Allow: /src/pages/cloudTherapy.html
 Allow: /src/handsFeatHair.html
-Allow: /src/news.html
+Allow: /src/authorialRituals.html
 Allow:/src/icons
-Sitemap:http://localhost:63342/aqua/index.html
+Sitemap:https://anastasiaevl.github.io/ritm-style-spa/
 
 Disallow:/src/assets/video
 Disallow:/src/assets/pictures
-Disallow:/src/pages/PrivacyPolicy.html
+Disallow:/src/pages/privacyPolicy.html
 Disallow:/src/pages/cookies.html
 
 Clean-param: utm
